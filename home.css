@@ -1,0 +1,619 @@
+        /* //  was created by emmanuel nyarko 0534086538 */
+        /* //  was created by emmanuel nyarko 0534086538 */
+
+#featured_main{
+    display: none;
+}
+header{
+    display: none;
+}
+.inner_curtain{
+    display: none;
+}
+.inner_curtain.flip{
+    width: 100%;
+    height: 100vh;
+    animation:  up 8.5s linear ;
+    text-align: center;
+    -webkit-text-stroke: 2px red;
+    background-image: url(./images/wooden-round-table.png);
+     color: transparent;
+     background-clip: text;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+    
+    z-index: 5;
+    position: absolute;
+
+    
+}
+
+@keyframes up {
+    0%{
+        padding-top: 27%;
+    font-size: 15rem;
+  
+    }
+    10%{
+       
+        background-color: antiquewhite;
+        height: 90%;
+        padding-top: 20%;
+        transform-origin: bottom;
+        font-size: 10rem;
+    }
+    30%{
+        background: red;
+        height: 70%;
+        padding-top: 6%;
+        font-size: 8rem;
+
+
+    }
+    60%{
+        background: rgb(17, 0, 255);
+        height: 50%;
+        padding-top: 4%;
+        font-size: 7rem;
+
+
+        /* //  was created by emmanuel nyarko 0534086538 */
+        /* //  was created by emmanuel nyarko 0534086538 */
+       
+
+    }
+    80%{
+        background: rgb(242, 78, 248);
+
+        height: 30%;
+        padding-top: 2%;
+        font-size: 4rem;
+
+
+
+    }
+    90%{
+        font-size:1.5rem ;
+        height: 20%;
+    }
+    93%{
+        font-size: 1rem;
+        height: 15%;
+    }
+    95%{
+        background: rgb(23, 23, 19);
+
+        height: 10%;
+        padding-top: .6%;
+        font-size: .8rem;
+
+
+        /* //  was created by emmanuel nyarko 0534086538 */
+
+
+    }
+    97%{
+        font-size: .4rem;
+        height: 4%;
+
+    }
+    100%{
+        background: rgb(246, 240, 50);
+
+      
+       padding-top: 0%;
+       font-size: 1px;
+
+
+
+    }
+    
+}
+
+
+
+.intro{
+    height: 90vh;
+    background-color: rgb(234, 238, 238);
+}
+.intro img:nth-child(1){
+    height: 100%;
+    scale: .9;
+    visibility: hidden;
+  
+}
+ .chair.animin{
+    
+    
+    height: 100%;
+    animation: frm_lft 2s forwards linear;
+
+        /* //  was created by emmanuel nyarko 0534086538 */
+        /* //  was created by emmanuel nyarko 0534086538 */
+
+}
+@keyframes frm_lft{
+    0%{
+       transform: translate(-70%);
+    visibility:visible;
+
+        
+    }
+    50%{
+       transform: translate(30%);
+    visibility:visible;
+
+
+    }
+    100%{
+       transform: translate(38%);
+    visibility:visible;
+
+
+    }
+}
+.intro img:nth-child(2){
+    height: 50%;
+    visibility: hidden;
+    margin-bottom: 2%;
+}
+.desk.animy{
+    height: 50%;
+    animation: frm_rit 3s forwards linear;
+    
+}
+@keyframes frm_rit {
+    0%{
+       transform: translate(170%);
+    visibility:visible;
+
+
+    }
+    50%{
+        transform: translate(100%);
+        visibility:visible;
+
+
+    }
+    100%{
+       transform: translate(50%);
+        visibility:visible;
+
+
+    }
+}
+#featured_main{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.featured{
+    
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    position: relative;
+    padding-top: 6rem;
+}
+
+.featured_box{
+    width: 22%;
+    text-align: start;
+    font-family: sans-serif;
+}
+.featured_box:hover{
+    transition: .4s ease;
+    transform: scale(1.01) translate(5px);
+}
+.featured_box img{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.featured_box p{
+    padding: 10px 0;
+    font-size: 19px;
+    color: rgb(2, 6, 35);
+}
+.featured_box small{
+    font-size: 16px; 
+    font-weight: 700;
+    color: rgb(62, 62, 62);
+    display: inline-block;
+}
+.featured_box button{
+    padding: 5px 16px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+ .featured_box button:hover{
+    transition: ease.4s;
+    background-color: rgb(193, 129, 11);
+}
+        /* //  was created by emmanuel nyarko 0534086538 */
+        /* //  was created by emmanuel nyarko 0534086538 */
+
+.popup{
+    width: 70%;
+    box-shadow: 2px 3px 9px ;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aquamarine;
+    padding: 20px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    display: none;
+
+}
+.item_description{
+    display: block;
+    color: blue;
+    
+    
+}
+.innerpop img{
+ width: 55%;
+
+}
+
+.input input{
+    width: 2rem;
+   padding: 4px;
+   
+}
+.input button{
+    padding: 5px 16px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.input button:hover{
+ 
+        transition: ease.4s;
+        background-color: rgb(193, 129, 11);
+    
+}
+.input{
+    width: max-content;
+    background-color: azure;
+    padding: 10px;
+}
+.popup span{
+    position: absolute;
+    top: 6px;
+    right: 1rem;
+    color: rgb(226, 61, 15);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    cursor:pointer;
+}
+.product,.about,.Contact,.account,.cart{
+    position: absolute;
+   
+    top: 12%;
+    animation: turn 1s linear forwards;
+    transform-origin: right;
+    
+    
+    display: none;
+}
+.product{
+    background-color: #ffffff;
+}
+.account{
+    display: block;
+}
+@keyframes turn {
+    0%{
+        display: flex;
+        transform: translate(-50%);
+    }
+        /* //  was created by emmanuel nyarko 0534086538 */
+        /* //  was created by emmanuel nyarko 0534086538 */
+    
+}
+
+
+
+.account{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+    .account_intro{
+        display: flex;
+     align-items: center;
+     height: 90vh;
+     justify-content: center;
+    }
+    .account_intro img{
+        width: 40%;
+    }
+    .form{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 2px 5px;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    }
+    .title{
+        display: flex;
+        gap: 2rem;
+        width: 100%;
+        justify-content: center;
+    }
+    .title span{
+       width: 30%;
+       
+       text-align: center;
+    }
+    
+    .title span:hover{
+        border-bottom: 2px orange solid;
+        transition: all  ease;
+    
+    cursor: pointer;
+    
+    }
+    .login,.register{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    
+    }
+    input{
+    width: 70%;
+    height: 25px;
+    padding-left:10px ;
+    }
+    
+    .login button,.register button{
+        border-radius: 2rem;
+        padding: 1px;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+       width: 70%;
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+    
+    }
+    .register{
+        display: none;
+    }
+    .push{
+        border-bottom: 2px orange solid;
+    }
+    
+        .push1{
+            border-bottom: 2px orange solid;
+    
+        }
+
+/* cart page */
+.cart{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+
+}
+.cart .carttable{
+   
+    width: 80%;
+    margin: 5%;
+    text-align: center;
+}
+.notify{
+    border-radius: 50%;
+    padding: 4px;
+    background-color: red;
+   color: white;
+    text-align: center;
+    position: absolute;
+    font-family: sans-serif;
+    height: fit-content;
+    font-size: 14px;
+    top: -80%;
+    
+}
+.cart_page{
+    position: relative;
+}
+.userId{
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+   width: 3.2rem;
+   height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 900;
+    background-color: rgb(83, 137, 245);
+    margin: 1rem 1rem;
+
+}
+/* contact */
+.Contact{
+  width: 100%;
+    background-color: white;
+    
+}
+.contact_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+
+.contact_box{
+    width: 15%;
+
+    border: 2p solid black;
+    text-align: center;
+    box-shadow: 5px 3px 9px rgb(151, 151, 151);
+ word-break: break-all;
+ padding: 10px;
+}
+
+span i{
+    color: red;
+    font-size: larger;
+}
+.contact_box p{
+    margin-top: 1rem;
+    }
+
+    .container{
+        margin-top: 3rem;
+        width:100%;
+       
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        
+      }
+      .map_flex{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        width: 60%;
+    
+    margin-left: 20%;
+
+      }
+      .map_flex form{
+        
+    
+            width: 100%;
+           
+          box-shadow: 0px 2px 9px rgb(151, 151, 151);
+          border-radius: 10px;
+          margin-top: 3rem;
+        
+      }
+
+      .map_flex .container{
+        margin-top: 3rem;
+        width: 100%;
+       
+        text-align: center;
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        
+      }
+      h1{
+          cursor: default;
+          height: 2rem;
+          margin-top: 2px;
+      }
+      h1 span{
+         color: rgb(74, 241, 65);
+          text-decoration: underline;
+          text-underline-offset: 3px;
+         
+      }
+      .map_flex  input{
+        width: 90%;
+        height: 7vh;
+        align-self: center;
+        color: black;
+        font-size: 14px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid black;
+        margin-top: -.4rem
+    }
+    .map_flex .lgin{
+        align-self: center;
+        width: 40%;
+        font-size: 19px;
+        border-radius: 19px;
+        height: 6vh;
+       margin-bottom: 7px;
+       
+       
+    }
+    .map_flex .login:nth-child(2){
+      width: 30%;
+      border-radius: 0;
+    }
+    textarea{
+    max-width: 90%;
+   min-height: 16vh ;
+    min-width: 90%;
+    place-self: center;
+    margin-top: -1.2rem;
+    
+   
+    }  
+
+    /* aboutpage */
+.about{
+    width: 100%;
+  
+    text-align: center;
+    background-color: white;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    place-items: center;
+    align-content: center;
+    margin-top: 2rem;
+
+}
+
+    .member_box{
+        width: 80%;
+       
+        border: 1px solid black;
+    }
+   .member_box img{
+    width: 100%;
+    height:40vh;
+   }
+   
+    
